@@ -1,0 +1,26 @@
+.active {
+    background-color: green;
+
+}
+
+.unactive {
+    background-color: red;
+}
+
+.normal {
+    background-color: lightskyblue;
+}
+
+.next {
+    background-color: rgb(251, 251, 109);
+}
+
+#tablica>tbody>tr>td {
+ width: 200px;
+ height: 100px;
+ border: 1px solid black;
+}
+
+#add8days {
+    float: right;
+}
