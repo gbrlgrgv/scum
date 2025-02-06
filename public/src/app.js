@@ -9,7 +9,7 @@ const today = new Date();
 // console.log(firstData);
 // console.log(today.toISOString().split("T")[0]);
 
-todayDate.textContent = `Днешна дата: ${today.getDate()}.${today.getMonth()+1}  / Час: ${today.getHours()}:${today.getMinutes()}`;
+todayDate.textContent = `Today: ${today.getDate()}.${today.getMonth()+1}  / Time: ${today.getHours()}:${today.getMinutes()}`;
 
 function color (){
 tcells.forEach(element => { 
